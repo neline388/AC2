@@ -1,3 +1,12 @@
+the id in the mock data needs to be added to the whole ui(change the elimina, add, and edit based on it). 
+When I open a devise the other cards open as well(changed accordion to dialog)
+Need to space the cards better
+in middle of making the proposed UI(sitogrid -> sitocard -> sitodialo-> dispositiviitem ) so sitodial is not extra component i forgot to delete (/≧▽≦)/
+
+**models.ts = the interfaces
+the architecture :
+sitolist -> sitocard -> DispositivoItem -> DispositivoDialog**
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
