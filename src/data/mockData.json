@@ -1,0 +1,89 @@
+{
+  "data": [
+    {
+      "nomeDispositivo": "AGRO-MONITOR-01",
+      "descrizioneDispositivo": "Sensore per umidità del suolo e fertilità",
+      "listaSensori": [
+        { "idSensore": 1, "nomeSensore": "Umidità Terreno", "unitaMisura": "%", "sogliaAvviso": 20, "sogliaAllert": 10, "frequenzaCampionamento": "1h" },
+        { "idSensore": 2, "nomeSensore": "Livello Azoto", "unitaMisura": "mg/kg", "sogliaAvviso": 50, "sogliaAllert": 30, "frequenzaCampionamento": "6h" }
+      ],
+      "sito": { "idSito": 10, "nomeSito": "Vigneto Nord", "location": "Filare 12", "latitudine": "43.7696", "longitudine": "11.2558" }
+    },
+    {
+      "nomeDispositivo": "HVAC-CONTROLLER-B3",
+      "descrizioneDispositivo": "Centralina gestione aria condizionata ufficio",
+      "listaSensori": [
+        { "idSensore": 3, "nomeSensore": "Temperatura Ambiente", "unitaMisura": "°C", "sogliaAvviso": 26, "sogliaAllert": 30, "frequenzaCampionamento": "15 min" }
+      ],
+      "sito": { "idSito": 22, "nomeSito": "Sede Centrale", "location": "Piano 3 - Open Space", "latitudine": "45.4642", "longitudine": "9.1900" }
+    },
+    {
+      "nomeDispositivo": "POWER-METER-IND",
+      "descrizioneDispositivo": "Analizzatore di rete trifase",
+      "listaSensori": [
+        { "idSensore": 4, "nomeSensore": "Consumo Attivo", "unitaMisura": "kWh", "sogliaAvviso": 450, "sogliaAllert": 600, "frequenzaCampionamento": "1 min" },
+        { "idSensore": 5, "nomeSensore": "Fattore di Potenza", "unitaMisura": "phi", "sogliaAvviso": 0.9, "sogliaAllert": 0.8, "frequenzaCampionamento": "1 min" }
+      ],
+      "sito": { "idSito": 5, "nomeSito": "Fabbrica Bulloni", "location": "Quadro Elettrico Generale", "latitudine": "45.0703", "longitudine": "7.6869" }
+    },
+    {
+      "nomeDispositivo": "AIR-QUALITY-09",
+      "descrizioneDispositivo": "Rilevatore PM10 e CO2",
+      "listaSensori": [
+        { "idSensore": 6, "nomeSensore": "Particolato PM10", "unitaMisura": "µg/m³", "sogliaAvviso": 40, "sogliaAllert": 50, "frequenzaCampionamento": "30 min" },
+        { "idSensore": 7, "nomeSensore": "Anidride Carbonica", "unitaMisura": "ppm", "sogliaAvviso": 800, "sogliaAllert": 1200, "frequenzaCampionamento": "10 min" }
+      ],
+      "sito": { "idSito": 101, "nomeSito": "Scuola Elementare Fermi", "location": "Aula Magna", "latitudine": "41.9028", "longitudine": "12.4964" }
+    },
+    {
+      "nomeDispositivo": "TANK-LEVEL-S1",
+      "descrizioneDispositivo": "Monitoraggio livello cisterna gasolio",
+      "listaSensori": [
+        { "idSensore": 8, "nomeSensore": "Livello Liquido", "unitaMisura": "litri", "sogliaAvviso": 500, "sogliaAllert": 100, "frequenzaCampionamento": "4h" }
+      ],
+      "sito": { "idSito": 44, "nomeSito": "Deposito Logistico", "location": "Area Cisterne Esterna", "latitudine": "44.4949", "longitudine": "11.3426" }
+    },
+    {
+      "nomeDispositivo": "BRIDGE-VIB-M",
+      "descrizioneDispositivo": "Sensore vibrazioni strutturali ponte",
+      "listaSensori": [
+        { "idSensore": 9, "nomeSensore": "Accelerometro X", "unitaMisura": "g", "sogliaAvviso": 0.5, "sogliaAllert": 1.2, "frequenzaCampionamento": "10ms" },
+        { "idSensore": 10, "nomeSensore": "Accelerometro Y", "unitaMisura": "g", "sogliaAvviso": 0.5, "sogliaAllert": 1.2, "frequenzaCampionamento": "10ms" }
+      ],
+      "sito": { "idSito": 99, "nomeSito": "Ponte della Libertà", "location": "Pilastro Centrale", "latitudine": "45.4408", "longitudine": "12.3155" }
+    },
+    {
+      "nomeDispositivo": "SMART-LIGHT-P1",
+      "descrizioneDispositivo": "Controllo illuminazione pubblica",
+      "listaSensori": [
+        { "idSensore": 11, "nomeSensore": "Luminosità", "unitaMisura": "lux", "sogliaAvviso": 20, "sogliaAllert": 5, "frequenzaCampionamento": "5 min" }
+      ],
+      "sito": { "idSito": 3, "nomeSito": "Centro Storico", "location": "Via Roma - Palo 14", "latitudine": "40.8518", "longitudine": "14.2681" }
+    },
+    {
+      "nomeDispositivo": "PUMP-HEALTH-01",
+      "descrizioneDispositivo": "Diagnostica pompa idraulica",
+      "listaSensori": [
+        { "idSensore": 12, "nomeSensore": "Temperatura Olio", "unitaMisura": "°C", "sogliaAvviso": 85, "sogliaAllert": 100, "frequenzaCampionamento": "1 min" },
+        { "idSensore": 13, "nomeSensore": "Pressione Mandata", "unitaMisura": "bar", "sogliaAvviso": 12, "sogliaAllert": 15, "frequenzaCampionamento": "500ms" }
+      ],
+      "sito": { "idSito": 18, "nomeSito": "Impianto Idrico", "location": "Sala Pompe", "latitudine": "38.1157", "longitudine": "13.3615" }
+    },
+    {
+      "nomeDispositivo": "FRIDGE-TRACK-04",
+      "descrizioneDispositivo": "Monitoraggio frigo farmaceutico",
+      "listaSensori": [
+        { "idSensore": 14, "nomeSensore": "Temp. Cella", "unitaMisura": "°C", "sogliaAvviso": 8, "sogliaAllert": 10, "frequenzaCampionamento": "30s" }
+      ],
+      "sito": { "idSito": 55, "nomeSito": "Ospedale Maggiore", "location": "Laboratorio Analisi", "latitudine": "45.6495", "longitudine": "13.7768" }
+    },
+    {
+      "nomeDispositivo": "NOISE-CHECK-07",
+      "descrizioneDispositivo": "Fonometro monitoraggio inquinamento acustico",
+      "listaSensori": [
+        { "idSensore": 15, "nomeSensore": "Livello Sonoro", "unitaMisura": "dB", "sogliaAvviso": 65, "sogliaAllert": 80, "frequenzaCampionamento": "1s" }
+      ],
+      "sito": { "idSito": 7, "nomeSito": "Zona Movida", "location": "Piazza Navona", "latitudine": "41.8992", "longitudine": "12.4731" }
+    }
+  ]
+}
